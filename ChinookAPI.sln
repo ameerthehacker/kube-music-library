@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinookAPI", "ChinookAPI\ChinookAPI.csproj", "{EA95C6B1-3DA8-4AB9-8251-E34C396F8D20}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AD665A1A-6F72-4853-9A88-83D085B3A6BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EA95C6B1-3DA8-4AB9-8251-E34C396F8D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA95C6B1-3DA8-4AB9-8251-E34C396F8D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA95C6B1-3DA8-4AB9-8251-E34C396F8D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD665A1A-6F72-4853-9A88-83D085B3A6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD665A1A-6F72-4853-9A88-83D085B3A6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD665A1A-6F72-4853-9A88-83D085B3A6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD665A1A-6F72-4853-9A88-83D085B3A6BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

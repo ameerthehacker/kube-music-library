@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  chinookapi:
+    image: ${DOCKER_REGISTRY}chinookapi
+    ports:
+      - 5000:80
+    build:
+      context: .
+      dockerfile: ChinookAPI/Dockerfile
